@@ -1,0 +1,4 @@
+name/schoechlin/jms/messageutil/MessageSenderTest.class
+name/schoechlin/jms/messageutil/TimestampModifierTest.class
+name/schoechlin/jms/messageutil/MockMessageHandler.class
+name/schoechlin/jms/messageutil/MessageReceiverTest.class

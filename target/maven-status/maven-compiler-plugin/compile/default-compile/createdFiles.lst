@@ -1,0 +1,7 @@
+name/schoechlin/jms/messageutil/MessageReceiver$1.class
+name/schoechlin/jms/messageutil/MessageReceiver.class
+name/schoechlin/jms/messageutil/Main.class
+name/schoechlin/jms/messageutil/TimestampModifier.class
+name/schoechlin/jms/messageutil/IMessageProcessor.class
+name/schoechlin/jms/messageutil/MessageHandler.class
+name/schoechlin/jms/messageutil/MessageSender.class

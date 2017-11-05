@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="5.6.1" timestamp="2017-11-05T21:03:46.999">
+<file name="/home/marc/src/256bit.org/messageutil/src/main/java/name/schoechlin/jms/messageutil/MessageHandler.java">
+<violation beginline="151" endline="153" begincolumn="35" endcolumn="33" rule="EmptyCatchBlock" ruleset="Empty Code" package="name.schoechlin.jms.messageutil" class="MessageHandler" method="processMessages" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/empty.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+<violation beginline="158" endline="160" begincolumn="35" endcolumn="33" rule="EmptyCatchBlock" ruleset="Empty Code" package="name.schoechlin.jms.messageutil" class="MessageHandler" method="processMessages" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/empty.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+</file>
+<file name="/home/marc/src/256bit.org/messageutil/src/main/java/name/schoechlin/jms/messageutil/MessageSender.java">
+<violation beginline="75" endline="75" begincolumn="38" endcolumn="63" rule="UselessParentheses" ruleset="Unnecessary" package="name.schoechlin.jms.messageutil" class="MessageSender" method="sendMessages" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/unnecessary.html#UselessParentheses" priority="4">
+Useless parentheses.
+</violation>
+</file>
+</pmd>
