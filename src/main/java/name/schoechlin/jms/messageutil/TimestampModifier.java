@@ -65,10 +65,7 @@ public class TimestampModifier {
 				break;
 			}
 		}
-		fmt = ISODateTimeFormat.dateTime();
-		time = fmt.print(dt);
-
-		return time;
+		return dt.toString();
 	}
 	
 	
