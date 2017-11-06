@@ -24,6 +24,7 @@ public class TimestampModifierTest extends TestCase {
 
 		String date = "2012-05-15T07:08:09+03:00";
 		String newTime = TimestampModifier.shiftTime(date, "2d;2m;-3d");
+		System.out.println(date +  " => " + newTime );
 		assertEquals("2012-05-14T07:10:09.000+03:00", newTime);
 
 		newTime = TimestampModifier.shiftTime("2002-10-10T12:01:32", "-3d");
