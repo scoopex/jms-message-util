@@ -63,7 +63,7 @@ Replay options:
 How to extend and to use
 =========================
 
-Travis CI is located at: https://travis-ci.org/scoopex/messageutil/
+Travis CI is located at: https://travis-ci.org/scoopex/jms-message-util
 
   * Build project
     ```
