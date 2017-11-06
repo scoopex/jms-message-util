@@ -62,6 +62,6 @@ public class TimestampModifierTest extends TestCase {
 
 		// System.out.println("===================>"+bytesToHex(digest));
 		// System.out.println(message);
-		assertEquals("E89B3D329057251370588565B83714F1B6DCD78D285DC2E96F945EDFC394940C", bytesToHex(digest));
+		assertEquals("5BE66667AE0E73A688C616AEB8B2A769F48069B777695CBBFBE142E274655595", bytesToHex(digest));
 	}
 }
