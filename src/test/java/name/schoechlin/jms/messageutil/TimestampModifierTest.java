@@ -19,15 +19,14 @@ public class TimestampModifierTest extends TestCase {
 	public static Test suite() {
 		return new TestSuite(TimestampModifierTest.class);
 	}
-
+	
 	public void testShiftTime() {
 
 		String date = "2012-05-15T07:08:09+03:00";
 		String newTime = TimestampModifier.shiftTime(date, "2d;2m;-3d");
-		System.out.println(date +  " => " + newTime );
 		assertEquals("2012-05-14T07:10:09.000+03:00", newTime);
 
-		newTime = TimestampModifier.shiftTime("2002-10-10T12:01:32", "-3d");
+		newTime = TimestampModifier.shiftTime("2002-10-10T12:01:32+02:00", "-3d");
 		assertEquals("2002-10-07T12:01:32.000+02:00", newTime);
 	}
 

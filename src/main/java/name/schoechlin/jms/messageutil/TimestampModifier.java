@@ -39,7 +39,7 @@ public class TimestampModifier {
 
 		DateTimeFormatter fmt = ISODateTimeFormat.dateTimeParser().withOffsetParsed();
 		DateTime dt = fmt.parseDateTime(time);
-
+		
 		for (String timeshift : timeshifts.split(";")) {
 
 			Matcher matcher = timemodifierFormat.matcher(timeshift);
@@ -51,18 +51,18 @@ public class TimestampModifier {
 			Integer count = Integer.parseInt(matcher.group("count"));
 
 			switch (matcher.group("proportion")) {
-			case "s":
-				dt = dt.plusSeconds(count);
-				break;
-			case "m":
-				dt = dt.plusMinutes(count);
-				break;
-			case "h":
-				dt = dt.plusHours(count);
-				break;
-			case "d":
-				dt = dt.plusDays(count);
-				break;
+				case "s":
+					dt = dt.plusSeconds(count);
+					break;
+				case "m":
+					dt = dt.plusMinutes(count);
+					break;
+				case "h":
+					dt = dt.plusHours(count);
+					break;
+				case "d":
+					dt = dt.plusDays(count);
+					break;
 			}
 		}
 		return dt.toString();
