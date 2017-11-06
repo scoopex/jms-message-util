@@ -37,8 +37,8 @@ public class TimestampModifier {
 
 	static String shiftTime(String time, String timeshifts) {
 
-		DateTimeFormatter fmt = ISODateTimeFormat.dateTimeParser();
-		DateTime dt = fmt.withOffsetParsed().parseDateTime(time);
+		DateTimeFormatter fmt = ISODateTimeFormat.dateTimeParser().withOffsetParsed();
+		DateTime dt = fmt.parseDateTime(time);
 
 		for (String timeshift : timeshifts.split(";")) {
 
